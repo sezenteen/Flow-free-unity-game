@@ -1,0 +1,54 @@
+# Flow Free
+
+Unity дээр хийсэн энгийн Flow Free төрлийн puzzle тоглоом. Энэ хувилбар нь зөвхөн 5 level-тэй бөгөөд тоглогч ижил өнгийн хоёр цэгийг хооронд нь зураасаар холбоно.
+
+## Тоглоомын зорилго
+
+Талбар дээр байгаа ижил өнгийн хоёр цэгийг хооронд нь холбоно. Нэг өнгийн зам нөгөө өнгийн замтай давхцахгүй байх ёстой. Бүх өнгийн хос цэгүүдийг зөв холбовол level дуусна.
+
+## Хэрхэн ажиллуулах вэ
+
+1. Unity Hub нээнэ.
+2. `D:\FlowFree` folder-ийг Unity project гэж нээнэ.
+3. `Assets/Project/Scenes/MainMenu.unity` scene-ийг нээнэ.
+4. Unity Editor дээр `Play` товч дарна.
+5. Main menu дээрээс `LEVEL 1`-ээс `LEVEL 5` хүртэл сонгож тоглоно.
+
+## Хэрхэн тоглох вэ
+
+1. Level сонгоно.
+2. Ижил өнгийн нэг цэг дээр mouse дарж эхэлнэ.
+3. Mouse-аа чирж нөгөө ижил өнгийн цэг хүртэл холбоно.
+4. Буруу зурсан бол `RESTART` дарж дахин эхэлж болно.
+5. Level дууссаны дараа `NEXT` дарж дараагийн level рүү орно.
+6. `MENU` дарвал level сонгох дэлгэц рүү буцна.
+
+## Төслийн бүтэц
+
+- `Assets/Project/Scenes/MainMenu.unity` - тоглоом эхлэх scene.
+- `Assets/Project/Scenes/Gameplay.unity` - тоглоомын scene.
+- `Assets/Project/Scripts/SimpleFlowGame.cs` - menu, level, board, mouse input, win condition бүгдийг удирддаг үндсэн script.
+- `Assets/Resources/Sprites/` - board, cell, circle зэрэг sprite зургууд.
+- `.gitignore` - Unity-ийн автоматаар үүсдэг том cache болон build файлуудыг GitHub руу оруулахгүй байхаар тохируулсан файл.
+
+## GitHub руу оруулах
+
+Шинэ GitHub repository үүсгээд дараах командуудыг ашиглана:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git branch -M main
+git add .
+git commit -m "Initial clean Unity project"
+git push -u origin main
+```
+
+`YOUR_USERNAME` болон `YOUR_REPO_NAME` хэсгийг өөрийн GitHub username болон repository нэрээр солино.
+
+## `.gitignore` яагаад хэрэгтэй вэ?
+
+Unity project дотор `Library`, `Temp`, `Logs`, `UserSettings` зэрэг folder-ууд автоматаар үүсдэг. Эдгээр нь маш том хэмжээтэй, дахин үүсэж болдог cache файлууд тул GitHub руу оруулах шаардлагагүй. `.gitignore` файл эдгээрийг Git-ээс нууж, repository-г цэвэр жижиг байлгадаг.
+
+## Тайлбар
+
+Энэ project нь хуучин clone хийсэн олон script, generator, level asset-уудаас цэвэрлэгдсэн. Одоо тоглоомын үндсэн ажиллагаа `SimpleFlowGame.cs` script дээр төвлөрсөн бөгөөд зөвхөн 5 level тоглох боломжтой.
