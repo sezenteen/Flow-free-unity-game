@@ -31,24 +31,6 @@ Unity дээр хийсэн Flow Free тоглоомын clone хувилбар.
 - `Assets/Resources/Sprites/` - board, cell, circle зэрэг sprite зургууд.
 - `.gitignore` - Unity-ийн автоматаар үүсдэг том cache болон build файлуудыг GitHub руу оруулахгүй байхаар тохируулсан файл.
 
-## GitHub руу оруулах
-
-Шинэ GitHub repository үүсгээд дараах командуудыг ашиглана:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git branch -M main
-git add .
-git commit -m "Initial clean Unity project"
-git push -u origin main
-```
-
-`YOUR_USERNAME` болон `YOUR_REPO_NAME` хэсгийг өөрийн GitHub username болон repository нэрээр солино.
-
-## `.gitignore` яагаад хэрэгтэй вэ?
-
-Unity project дотор `Library`, `Temp`, `Logs`, `UserSettings` зэрэг folder-ууд автоматаар үүсдэг. Эдгээр нь маш том хэмжээтэй, дахин үүсэж болдог cache файлууд тул GitHub руу оруулах шаардлагагүй. `.gitignore` файл эдгээрийг Git-ээс нууж, repository-г цэвэр жижиг байлгадаг.
-
 ## Тайлбар
 
 Миний хувьд маш сонирхолтой туршлага боллоо гэж бодож байна. Тоглоом хөгжүүлэлтийн талаар багахан мэдлэгтэй байсан ч 7 хоногийн хугацаанд их зүйлийг судалж, сурч бас мэдлээ. Энэ тоглоомыг хийхэд YouTube: https://www.youtube.com/watch?v=Id23yLF2zag&list=PLsSHiYJvCZFfHN3opoV_ePrW7OHPs8u9M&index=2 хаягаас үзэж, эхний 3 хоног дуйрааж хийх гэж оролдсон гэхдээ бүрэн ажиллуулж чадаагүй тул Codex AI ашигласан болно. Мөн Game asset-ыг https://github.com/zerefgd/Connect хаягаас авсан болно.
