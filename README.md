@@ -1,6 +1,6 @@
-# Flow Free
+# Flow Free clone (Dot connection puzzle)
 
-Unity дээр хийсэн энгийн Flow Free төрлийн puzzle тоглоом. Энэ хувилбар нь зөвхөн 5 level-тэй бөгөөд тоглогч ижил өнгийн хоёр цэгийг хооронд нь зураасаар холбоно.
+Unity дээр хийсэн Flow Free тоглоомын clone хувилбар. Зааврын дагуу 5 level-тэй, тоглогч ижил өнгийн хоёр цэгийг хооронд нь зураасаар холбох puzzle төрлийн тоглоом.
 
 ## Тоглоомын зорилго
 
@@ -51,4 +51,4 @@ Unity project дотор `Library`, `Temp`, `Logs`, `UserSettings` зэрэг fo
 
 ## Тайлбар
 
-Энэ project нь хуучин clone хийсэн олон script, generator, level asset-уудаас цэвэрлэгдсэн. Одоо тоглоомын үндсэн ажиллагаа `SimpleFlowGame.cs` script дээр төвлөрсөн бөгөөд зөвхөн 5 level тоглох боломжтой.
+Миний хувьд маш сонирхолтой туршлага боллоо гэж бодож байна. Тоглоом хөгжүүлэлтийн талаар багахан мэдлэгтэй байсан ч 7 хоногийн хугацаанд их зүйлийг судалж, сурч бас мэдлээ. Энэ тоглоомыг хийхэд YouTube: https://www.youtube.com/watch?v=Id23yLF2zag&list=PLsSHiYJvCZFfHN3opoV_ePrW7OHPs8u9M&index=2 хаягаас үзэж, эхний 3 хоног дуйрааж хийх гэж оролдсон гэхдээ бүрэн ажиллуулж чадаагүй тул Codex AI ашигласан болно. Мөн Game asset-ыг https://github.com/zerefgd/Connect хаягаас авсан болно.
